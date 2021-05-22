@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(BackgroundPG3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+/*NAVIGASJONSMENY START */
+nav{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #AEEBE5;
+}
+
+.home{
+    float: left;
+    margin: 10px 10px 10px 30px;
+}
+
+.home a{
+    color: #FD6620;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar ul{
+    float: right;
+    display: flex;
+    flex-direction: row;    
+}
+
+.navbar ul li{
+    width: 100px;
+    margin: 10px;
+    color: #26A69A;
+    font-family: 'Oswald';
+    font-size: 14px;
+    list-style: none;
+}
+
+.navbar ul li ul{
+    display: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+    border-radius: 8px;
+    background-color: #AEEBE5;
+}
+
+.navbar ul li ul li a{
+    margin: 10px;
+    color: black;
+    font-family: 'Oswald';
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar ul li ul li a:hover{
+    color: #26A69A;
+}
+/*NAVIGASJONSMENY SLUTT */
+
+/*HEADER START */
+header{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    color: white;
+}
+
+.personal{
+    float: left;
+    width: 49%;
+}
+
+.personal h1{
+    padding-left: 20%;
+    font-family: "oswald";
+    font-size: 4vw;
+}
+
+.personal ul{
+    margin-top: 1%;
+    padding-left: 20%;
+    color: black;
+    font-family: "oswald";
+    font-size: 1.6vw;
+    font-weight: normal;
+    line-height: 3.4vw;
+    list-style: none;
+}
+
+.week{
+    margin: 5% 0 0% 50%;
+    font-family: "oswald";
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+.week h2{
+    text-align: center;
+}
+
+.weekbox{
+    width: 100%;
+    height: 10%;
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.wbt{
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #6AC8BF;
+    text-align: center;
+    color: white;
+    font-family: "oswald";
+    font-size: 2vw;
+}
+
+.body{
+    float: right;
+    width: 49%;
+}
+
+.body img{
+    width: 70%;
+}
+
+.chest{
+    width: 20.2%;
+    margin: -504px -300px 0px 170px; 
+}
+
+.chest img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.chest:hover img{
+    opacity: 100%;
+}
+
+.core{
+    width: 18.6%;
+    margin: -24px 0px 0px 176px;
+}
+
+.core img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.core:hover img{
+    opacity: 100%;
+}
+
+.shoulders{
+    width: 29.5%;
+    margin: -188.5px 0px 0px 144px;
+}
+
+.shoulders img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.shoulders:hover img{
+    opacity: 100%;
+}
+
+.forearms{
+    width: 38%;
+    margin: 10.3px 0px 0px 130.6px;
+}
+
+.forearms img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.forearms:hover img{
+    opacity: 100%;
+}
+
+.biceps{
+    width: 31%;
+    margin: -163px 0px 0px 145px;
+}
+
+.biceps img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.biceps:hover img{
+    opacity: 100%;
+}
+
+.upperleg{
+    width: 21.5%;
+    margin: 50px 0px 0px 155.8px;
+}
+
+.upperleg img{
+    width: 100%; 
+    opacity: 0%;
+}
+
+.upperleg:hover img{
+    opacity: 100%;
+}
+
+.head{
+    width: 8.9%;
+    margin: -412px 0px 0px 217px;
+}
+
+.head img{
+    width: 100%; 
+}
+/*HEADER SLUTT */
+
+/*MUSCLEGROUP START */
+.musclegroup{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.group{
+    float: left;
+    width: 50%;
+    padding-top: 0px;
+    text-align: right;
+    color: #AEEBE5;
+    font-family: "oswald";
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.muscle{
+    float: right;
+    width: 20%;
+    height: 3vw;
+    margin: 10px 28% 0 0;
+    border-radius: 10px;
+    background-color: #96ED89;
+    text-align: center;
+    color: white;
+    font-family: "imprima";
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+/*MUSCLEGROUP SLUTT */
+
+/*MAIN START */
+main{
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    margin-top: 13%;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    width: 15%;
+    height: auto;
+    padding-top: 8%;
+    padding-left: 2%;
+    border-right: solid;
+    border-width: thin;
+    border-color: white;
+    font-family: "oswald"
+}
+
+section ul{
+    padding-left: 10%;
+    text-decoration: none;
+    list-style: none;
+}
+
+section ul a{
+    color: #26A69A;
+    font-family: "oswald";
+    font-size: 1.5vw;
+    font-weight: normal;
+    line-height: 3vw;
+    text-decoration: none;
+}
+
+section ul li a:hover{
+    color: white;
+}
+
+#marked a{
+    color: white;
+}
+
+article{
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+article h1{
+    margin: 0 50% 100px 50%;
+    color: white;
+    font-family: "oswald";
+    font-size: 6.5vw;
+    line-height: 2.5vw;
+    
+}
+
+article div{
+    height:150px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+article div a{
+    color: black;
+    font-family: "imprima";
+    text-decoration: none;
+}
+
+detail{
+    width: 25%;
+    height: auto;
+    padding-right: 4%;
+    color: #26A69A;
+    font-family: "oswald";
+    font-size: 1.5vw;
+    font-weight: regular;
+    line-height: 1.5vw;  
+}
+
+#gif{
+    margin-top: 50px;
+}
+
+#gif img{
+    width: 40%;
+}
+/*MAIN SLUTT */
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    writing-mode: vertical-rl;
+    color: #26A69A;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer a{
+    color: #26A69A;
+}

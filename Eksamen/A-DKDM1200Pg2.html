@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>DATA - 2</title>
+        <link rel="stylesheet" href="A-DKDM1200Pg2.css"
+              
+              href=https://fonts.google.com/specimen/Oswald?query=oswald#standard-styles
+              
+              href=https://fonts.google.com/specimen/Imprima?query=imprima>
+    </head>
+    
+    <body>
+        <!-- NAV er navigasjonsmenyen som ligger øverst på alle sidene -->
+        <nav>
+            <div class="home">
+                <h3><a href="Index.html">FEED</a></h3>
+           </div>
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <h3>WORKOUT</h3>
+                        <ul>
+                            <li> <a href="#">TODAYS</a></li>
+                            <li> <a href="A-DKDM1200Pg1.html">FIND WORKOUT</a></li>
+                            <li> <a href="#">FIND TRAINER</a></li>
+                            <li> <a href="#">PLANNED</a></li>
+                            <li> <a href="#">TIMER</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>COMMUNITY</h3>
+                        <ul>
+                            <li> <a href="#">DISCOVER</a></li>
+                            <li> <a href="#">FRIENDS</a></li>
+                            <li> <a href="#">TRAINERS</a></li>
+                            <li> <a href="#">GROUPS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>SIGN IN</h3>
+                        <ul>
+                            <li> <a href="#">PROFILE</a></li>
+                            <li> <a href="A-DKDM1200Pg2.html">DATA</a></li>
+                            <li> <a href="#">HELP</a></li>
+                            <li> <a href="#">SIGN OUT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!--HEADER representerer forsiden på denne siden. -->
+        <header>
+            
+            <!--PERSONAL er felt der brukeren selv kan fylle inn personlig info. Denne må knyttes til database med tilgang for bruker. -->
+            <div class="personal">
+                <h1>JOHN CITIZEN</h1>
+                <ul>
+                    <li>Age: 28</li>
+                    <li>Height: 185cm</li>
+                    <li>Weight: 90kg</li>
+                    <li>Cardio: 58bpm 3min test</li>
+                    <li>Main goal: Stay healthy till my last day!</li>
+                </ul>
+                
+                <!--WEEK er et felt som skal representere hvor mye av planlagt trening brukeren har gjort. WEEKBOX skal utfylle prosentandelen av WEEK likt treningen er utført av uken. WBT står for WEEKBOX TEXT og er det samme som WEEKBOX bare i tekst.Dette må knyttes til database.-->
+                <div class="week">
+                    <h2>Workouts done this week</h2>
+                    <div class="weekbox">
+                        <div class="wbt">
+                        <h3>3/5</h3></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--BODY er et navigasjonssysten for hvilke muskelgruppe brukeren vil fokosere på på nettsiden. Per nå består den av et stort bilde "manninfografikk.png" med flere små bilder som ligger over. Den fungerer nå hvis siden ikke skaleres. Dette er en løsning som må utarbeides, men den står per nå for å illustrere poenget med infografikken. -->
+            <div class="body">
+                <img src="manninfografikk.png">
+                <div class="chest">
+                    <img src="chest.png">
+                </div>
+                <div class="core">
+                    <img src="core.png">
+                </div>
+                <div class="shoulders">
+                    <a href="A-DKDM1200Pg4.html"><img src="shoulders.png"></a>
+                </div>
+                <div class="forearms">
+                    <img src="forearms.png">
+                </div>
+                <div class="biceps">
+                    <img src="biceps.png">
+                </div>
+                <div class="upperleg">
+                    <img src="upperleg.png">
+                </div>
+                <div class="head">
+                    <a href="A-DKDM1200Pg2.html"><img src="Ghead.png"></a>
+                </div>
+            </div>
+        </header>
+        
+        <!--MUSCLEGRUOP hører sammen med navigasjonssystemet i BODY. Denne skal fortelle hvilke muskel du har klikket deg inn på. -->
+        <div class="musclegroup">
+            <div class="group">
+                <h1>MUSCLE GROUP: </h1>
+            </div>
+            <div class="muscle">
+                <h2>MIND</h2>
+            </div>
+        </div>
+        
+        <!--MAIN er alt som foregår nederst på siden. Dette er tre felt, section, article og detail. Section er navigering som vil føre til en helt ny side, men eneste som endres er hva som står i article. Article har fire forskjellige muligheter; goals, measurements, eights og exercises. Detail er et eget felt hvor det informeres on farer ved å trene hver enkelt muskel.  -->
+        <main>
+            <section>
+                <ul>
+                    <li id="marked"><a href="A-DKDM1200Pg2.html">GOALS</a>
+                    </li>
+                    <li><a href="#">MEASUREMENTS</a></li>
+                    <li><a href="#">WEIGHTS</a></li>
+                    <li><a href="A-DKDM1200Pg3.html">EXERCISES</a></li>
+                </ul>
+            </section>
+            <article>
+                <h1>GOALS</h1>
+                 <p> YOU NEVER WIN IF YOU NEVER TRY</p>
+                <br>
+                <ul>
+                    <li><input class="check" type="checkbox"> Read "How to talk to absolutely anyone"</li>
+                    <li><input type="checkbox"> Jane Publics 1 week of meditation challenge</li>
+                    <li><input type="checkbox"> </li>
+                    <li><input type="checkbox"> </li>
+                    <li><input type="checkbox"> </li>
+                    <li><input type="checkbox"> </li>
+                    <li><input type="checkbox"> </li>
+                    <li><input type="checkbox"> </li>
+                    </ul>
+            </article>
+            <detail>
+                <h3>Keep in mind</h3>
+                <br>
+                <p>Taking care of your mind is just as important as taking care of your body.</p>
+                <br>
+                <p>Make sure to feed your brain positive thoughts!</p>
+                
+                <!--GIF er en gif i en loop som henger sammen med ARTICLE når goals er valgt. Den er plassert i detail for å ligge riktig på siden. -->
+                <div id="gif">
+                    <img src="gif.gif">
+                </div>
+            </detail>
+        </main>
+       
+         <!--FOOTER finner du vertikalt langs siden til venstre. -->
+         <footer>
+            <p>
+                <a href="#">Exerspace © 2021</a>
+                <a href="#">Help</a>
+                <a href="#">Privacy policy</a>   
+            </p>
+        </footer>
+     </body>
+</html>
